@@ -20,10 +20,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white bg-slate-500">
+    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
       <div>
         <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
-          BEACHES.
+          BEACHES
         </h1>
       </div>
       <ul className="hidden md:flex">
@@ -57,7 +57,7 @@ const Navbar = () => {
         }
       >
         <ul>
-          <h1>BEACHES.</h1>
+          <h1>BEACHES</h1>
           <li className="border-b">Home</li>
           <li className="border-b">Destinations</li>
           <li className="border-b">Travel</li>
