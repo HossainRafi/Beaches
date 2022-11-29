@@ -6,12 +6,17 @@ import { HiOutlineMenuAlt4 } from "react-icons/hi";
 
 
 const Navbar = () => {
- 
+  const [nav, setNav] = useState(false);
+  const [logo, setLogo] = useState(false);
+  const handleNav = () => {
+    setNav(!nav);
+    setLogo(!logo);
+  };
 
   return (
     <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white bg-slate-500">
       <div>
-        <h1 >
+        <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
           BEACHES
         </h1>
       </div>
