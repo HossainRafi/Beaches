@@ -1,4 +1,6 @@
 import React from "react";
+import { RiCustomerService2Fill } from "react-icons/ri";
+import { MdOutlineTravelExplore } from "react-icons/md";
 
 const Search = () => {
   return (
@@ -17,6 +19,30 @@ const Search = () => {
             diving at most resorts. If you are planning a wedding, BEACHES is
             the leader in Caribbean destination weddings and honeymoon packages.
           </p>
+        </div>
+        <div className="grid sm:grid-cols-2 gap-8 py-4">
+          <div className="flex flex-col lg:flex-row items-center text-center">
+            <button>
+              <RiCustomerService2Fill size={50} />
+            </button>
+            <div>
+              <h3 className="py-2">LEADING SERVICE</h3>
+              <p className="py-1">
+                ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col lg:flex-row items-center text-center">
+            <button>
+              <MdOutlineTravelExplore size={50} />
+            </button>
+            <div>
+              <h3 className="py-2">LEADING SERVICE</h3>
+              <p className="py-1">
+                ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
