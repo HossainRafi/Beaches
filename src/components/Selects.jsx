@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Select = () => {
+const Selects = () => {
   return (
     <div>Select</div>
   )
 }
 
-export default Select
+export default Selects
