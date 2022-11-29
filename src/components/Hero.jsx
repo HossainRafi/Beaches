@@ -33,7 +33,7 @@ const Hero = () => {
               <AiOutlineSearch
                 size={20}
                 className="icon"
-                style={{ color: "#808588" }}
+                style={{ color: "#ffffff" }}
               />
             </button>
           </div>
