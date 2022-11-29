@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineSearch } from "react-icons/ai";
 import beachVid from "../assets/beachVid.mp4";
 
 const Hero = () => {
@@ -26,6 +27,15 @@ const Hero = () => {
               type="text"
               placeholder="Search Destinations"
             />
+          </div>
+          <div>
+            <button>
+              <AiOutlineSearch
+                size={20}
+                className="icon"
+                style={{ color: "#808588" }}
+              />
+            </button>
           </div>
         </form>
       </div>
