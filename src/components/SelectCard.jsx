@@ -1,6 +1,7 @@
 import React from 'react'
 
-const SelectCard = () => {
+const SelectCard = (props) => {
+    console.log(props);
   return (
     <div>SelectCard</div>
   )
