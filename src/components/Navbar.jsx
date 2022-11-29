@@ -27,11 +27,21 @@ const Navbar = () => {
         </h1>
       </div>
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>Destinations</li>
-        <li>Travel</li>
-        <li>View</li>
-        <li>Book</li>
+        <li className="hover:text-teal-400 duration-700 cursor-pointer">
+          Home
+        </li>
+        <li className="hover:text-teal-400 duration-700 cursor-pointer">
+          Destinations
+        </li>
+        <li className="hover:text-teal-400 duration-700 cursor-pointer">
+          Travel
+        </li>
+        <li className="hover:text-teal-400 duration-700 cursor-pointer">
+          View
+        </li>
+        <li className="hover:text-teal-400 duration-700 cursor-pointer">
+          Book
+        </li>
       </ul>
       <div className="hidden md:flex">
         <BiSearch className="" size={20} />
@@ -41,9 +51,12 @@ const Navbar = () => {
       {/* Hamburger */}
       <div onClick={handleNav} className="md:hidden z-10">
         {nav ? (
-          <AiOutlineClose className="text-black" size={20} />
+          <AiOutlineClose
+            className="text-black cursor-pointer"
+            size={30}
+          />
         ) : (
-          <HiOutlineMenuAlt4 size={20} />
+          <HiOutlineMenuAlt4 className="cursor-pointer" size={30} />
         )}
       </div>
 
@@ -58,11 +71,21 @@ const Navbar = () => {
       >
         <ul>
           <h1>BEACHES</h1>
-          <li className="border-b">Home</li>
-          <li className="border-b">Destinations</li>
-          <li className="border-b">Travel</li>
-          <li className="border-b">View</li>
-          <li className="border-b">Book</li>
+          <li className="border-b hover:text-teal-400 duration-700 cursor-pointer">
+            Home
+          </li>
+          <li className="border-b hover:text-teal-400 duration-700 cursor-pointer">
+            Destinations
+          </li>
+          <li className="border-b hover:text-teal-400 duration-700 cursor-pointer">
+            Travel
+          </li>
+          <li className="border-b hover:text-teal-400 duration-700 cursor-pointer">
+            View
+          </li>
+          <li className="border-b hover:text-teal-400 duration-700 cursor-pointer">
+            Book
+          </li>
           <div className="flex flex-col">
             <button className="my-6">Search</button>
             <button>Account</button>
