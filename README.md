@@ -1,12 +1,15 @@
 # Project Name: [Beaches](https://beaches-ui.netlify.app)
 
-## Project Live Link: https://beaches-ui.netlify.app
-
-### Technology Used:
-- React.js
+## Technologies:
+- React JS
+- JavaScript
 - Tailwind CSS
 - React Icons
 
-<p>
-This is a landing page website design using React and Tailwind CSS. This site is fully responsive for every type of devices.
-</p>
+## Project Description: 
+### This is a simple Landing page design with React and Tailwind CSS
+
+## Project Images:
+![app image](https://i.ibb.co/cCm8ZZr/1.png)
+![app image](https://i.ibb.co/Bn47fcB/2.png)
+![app image](https://i.ibb.co/dpNVh73/3.png)
