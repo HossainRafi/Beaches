@@ -6,10 +6,7 @@
 - Tailwind CSS
 - React Icons
 
-## Project Description: 
-### This is a simple Landing page design with React and Tailwind CSS
-
 ## Project Images:
-![app image](https://i.ibb.co/cCm8ZZr/1.png)
-![app image](https://i.ibb.co/Bn47fcB/2.png)
-![app image](https://i.ibb.co/dpNVh73/3.png)
+![app image](https://i.ibb.co/XDdYgWN/1.png)
+![app image](https://i.ibb.co/s9x7BXx/2.png)
+![app image](https://i.ibb.co/K22dmf3/3.png)
